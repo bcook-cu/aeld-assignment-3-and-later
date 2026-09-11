@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -euo pipefail
 usage() {
     echo "Usage: $0 <dir> <string>"
