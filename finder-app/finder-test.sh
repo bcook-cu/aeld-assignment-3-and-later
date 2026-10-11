@@ -5,7 +5,7 @@
 set -e
 set -u
 
-/tmp/assignment4-result.txt
+rm -f /tmp/assignment4-result.txt
 exec > /tmp/assignment4-result.txt 2>&1
 
 NUMFILES=10
