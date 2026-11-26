@@ -4,6 +4,7 @@ CC = $(CROSS_COMPILE)gcc
 CFLAGS = -O2 -g -Wall -Wextra
 CFLAGS += -Wpedantic
 CFLAGS += -Werror
+CFLAGS += -pthread
 
 TARGET = aesdsocket 
 SRC = aesdsocket.c
